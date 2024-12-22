@@ -4,8 +4,8 @@ const cheerio = require('cheerio');
 const app = express();
 const port = 3001;
 
-const API_KEY = 'YOUR_API_KEY';
-const BaseUrl = 'YOUR_API_URL';
+const API_KEY = 'tpsg-t3vXGPRXtzfGtRx7p9FpNtKBI4cQobC';
+const BaseUrl = 'https://api.metisai.ir/openai/v1';
 
 app.use(express.static('public'));
 app.use(express.json());
